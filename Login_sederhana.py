@@ -10,6 +10,6 @@ def login():
     if username == valid_username and password == valid_NIM:
         print("Login berhasil!")
     else:
-        print("Login gagal. Username atau password salah.")
+        print("Login gagal. Username atau NIM salah.")
 
 login()
